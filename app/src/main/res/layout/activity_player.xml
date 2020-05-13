@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:padding="10dip">
+        <TextView
+            android:id="@+id/lblPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/convergence"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="8"
+            android:text="Player Name"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:padding="10dip" />
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:id="@+id/lblPlayerWins"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="Wins"/>
+        <TextView
+            android:id="@+id/txtPlayerWins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:padding="10dip"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:id="@+id/lblPlayerLosses"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="Losses"/>
+        <TextView
+            android:id="@+id/txtPlayerLosses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:padding="10dip"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:id="@+id/lblPlayerTies"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="Ties"/>
+        <TextView
+            android:id="@+id/txtPlayerTies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:fontFamily="@font/convergence"
+            android:padding="10dip"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:text="0"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="40dip"
+        android:paddingBottom="5dip">
+
+        <Button
+            android:id="@+id/btnEditPlayerName"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/ic_edit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:text="Edit Player Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dip">
+
+        <Button
+            android:id="@+id/btnDeletePlayer"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/ic_delete"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:text="Delete Player" />
+    </LinearLayout>
+</TableLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:gravity="center"
+        android:padding="80dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="@string/app_title"
+        android:textColor="#32786E"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_shape"
+        android:padding="10dp"
+        android:text="@string/startGameText"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnScoreboard"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_shape"
+        android:padding="10dp"
+        android:text="@string/scoreboardText"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</LinearLayout>

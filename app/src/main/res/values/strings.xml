@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TicTacToeLeague</string>
+    <string name="app_title">TicTacToe League</string>
+
+    <string name="scoreboardText">View Scoreboard</string>
+    <string name="selectPlayersText">Select Players</string>
+    <string name="playerListText">View Player List</string>
+    <string name="startGameText">Start Game</string>
+    <string name="mnuNewGameText">New Game</string>
+    <string name="mnuHomeText">Home</string>
+
+    <string name="game_title">Tic-Tac-Toe</string>
+    <string name="scoreboard_title">Scoreboard</string>
+    <string name="player_title">Player Details</string>
+    <string name="playerlist_title">Player List</string>
+    <string name="name_title">Name</string>
+    <string name="wins_title">Wins</string>
+    <string name="ties_title">Ties</string>
+    <string name="losses_title">Losses</string>
+
+    <string name="player1_label">Select Player 1:</string>
+    <string name="player2_label">Select Player 2:</string>
+
+</resources>

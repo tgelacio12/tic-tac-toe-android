@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mnuNewGame"
+        android:icon="@drawable/ic_reset"
+        android:title="@string/mnuNewGameText"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/mnuHome"
+        android:title="@string/mnuHomeText"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnuViewScoreboard"
+        android:title="@string/scoreboardText"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnuSelectPlayer"
+        android:title="@string/selectPlayersText"
+        app:showAsAction="never" />
+
+</menu>
